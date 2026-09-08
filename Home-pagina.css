@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-#main-content {
+.main-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +14,7 @@
 }
 
 #navigatie {
+    background-color: #c1c1c1;
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     text-align: center;
