@@ -6,16 +6,30 @@
     text-align: center;
 }
 
-.main-content {
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
 }
 
-#navigatie {
-    background-color: #c1c1c1;
+#Grid3f {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
+    text-align: center;
+}
+
+.bottom{
+    margin-top: 80vh;
+}
+
+.Grid10fr{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    text-align: center;
+}
+
+.Midden{
+    margin-top: 20vh;
     text-align: center;
 }
